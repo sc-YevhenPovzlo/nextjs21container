@@ -1,0 +1,24 @@
+{
+    "namespace": "MyProject",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/myproject"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/myproject"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/myproject"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/myproject"
+            }
+        ]
+    }
+}

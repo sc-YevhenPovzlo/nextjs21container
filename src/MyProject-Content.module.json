@@ -1,0 +1,16 @@
+{
+    "namespace": "MyProject-Content",
+    "references": [ "MyProject" ],
+    "items": {
+        "includes": [
+            {
+                "name": "content",
+                "path": "/sitecore/content/MyProject"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/myproject"
+            }
+        ]
+    }
+}

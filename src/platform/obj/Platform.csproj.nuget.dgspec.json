@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ypy\\Downloads\\MyProject\\src\\platform\\Platform.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ypy\\Downloads\\MyProject\\src\\platform\\Platform.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ypy\\Downloads\\MyProject\\src\\platform\\Platform.csproj",
+        "projectName": "MyProject",
+        "projectPath": "C:\\Users\\ypy\\Downloads\\MyProject\\src\\platform\\Platform.csproj",
+        "packagesPath": "C:\\Users\\ypy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ypy\\Downloads\\MyProject\\src\\platform\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ypy\\Downloads\\MyProject\\NuGet.Config",
+          "C:\\Users\\ypy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Sitecore.Assemblies.Platform": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Sitecore.Assemblies.SitecoreHeadlessServicesServer": {
+              "target": "Package",
+              "version": "[21.0.*, )"
+            },
+            "Sitecore.ContentSearch": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Sitecore.ContentSearch.Linq": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Sitecore.Kernel": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Sitecore.LayoutService": {
+              "target": "Package",
+              "version": "[9.0.*, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
